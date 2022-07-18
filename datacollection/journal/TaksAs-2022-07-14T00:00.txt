@@ -1,0 +1,76 @@
+*********** start 2022-07-14T00:00 ****************
+
+
+       ******* Actualize Tweet and followers***********     
+
+
+ OVERRIDE
+
+OK for url:  https://api.twitter.com/2/users/by/username/KamtoOfficiel?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,protected,verified,url
+OK for url:  https://api.twitter.com/2/users/by/username/CabralLibii?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,protected,verified,url
+OK for url:  https://api.twitter.com/2/users/by/username/Prof_Meon?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,protected,verified,url
+OK for url:  https://api.twitter.com/2/users/by/username/JoshuaOsih?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,protected,verified,url
+OK for url:  https://api.twitter.com/2/users/by/username/nouranefoster?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,protected,verified,url
+OK for url:  https://api.twitter.com/2/users/by/username/S_EspoirMatomba?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,protected,verified,url
+
+ POLITICIANS OVERRIDE
+
+Start actualisation for politician KamtoOfficiel
+OK for url:  https://api.twitter.com/2/users/956237994792538113/tweets?tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,lang,context_annotations,public_metrics,possibly_sensitive,reply_settings,referenced_tweets&max_results=100
+mise a jour terminé
+OK for url:  https://api.twitter.com/2/users/956237994792538113/followers?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,verified,protected,url&max_results=100
+mise a jour terminé
+is ok for politician KamtoOfficiel
+
+
+Start actualisation for politician CabralLibii
+OK for url:  https://api.twitter.com/2/users/3704515876/tweets?tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,lang,context_annotations,public_metrics,possibly_sensitive,reply_settings,referenced_tweets&max_results=100
+mise a jour terminé
+OK for url:  https://api.twitter.com/2/users/3704515876/followers?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,verified,protected,url&max_results=100
+mise a jour terminé
+is ok for politician CabralLibii
+
+
+Start actualisation for politician Prof_Meon
+OK for url:  https://api.twitter.com/2/users/1174329922673885184/tweets?tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,lang,context_annotations,public_metrics,possibly_sensitive,reply_settings,referenced_tweets&max_results=100
+mise a jour terminé
+OK for url:  https://api.twitter.com/2/users/1174329922673885184/followers?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,verified,protected,url&max_results=100
+mise a jour terminé
+is ok for politician Prof_Meon
+
+
+Start actualisation for politician JoshuaOsih
+OK for url:  https://api.twitter.com/2/users/1098492918/tweets?tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,lang,context_annotations,public_metrics,possibly_sensitive,reply_settings,referenced_tweets&max_results=100
+mise a jour terminé
+OK for url:  https://api.twitter.com/2/users/1098492918/followers?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,verified,protected,url&max_results=100
+mise a jour terminé
+is ok for politician JoshuaOsih
+
+
+Start actualisation for politician nouranefoster
+OK for url:  https://api.twitter.com/2/users/4238298291/tweets?tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,lang,context_annotations,public_metrics,possibly_sensitive,reply_settings,referenced_tweets&max_results=100
+mise a jour terminé
+OK for url:  https://api.twitter.com/2/users/4238298291/followers?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,verified,protected,url&max_results=100
+mise a jour terminé
+is ok for politician nouranefoster
+
+
+Start actualisation for politician S_EspoirMatomba
+OK for url:  https://api.twitter.com/2/users/4691612682/tweets?tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,lang,context_annotations,public_metrics,possibly_sensitive,reply_settings,referenced_tweets&max_results=100
+mise a jour terminé
+OK for url:  https://api.twitter.com/2/users/4691612682/followers?user.fields=id,name,username,public_metrics,created_at,location,profile_image_url,verified,protected,url&max_results=100
+mise a jour terminé
+is ok for politician S_EspoirMatomba
+
+
+       ******* Get discussion of last 7 days ***********     
+
+conversation_id: 1545722849901645825
+
+OK for url:  https://api.twitter.com/2/tweets/search/recent?query=conversation_id:1545722849901645825&tweet.fields=author_id,conversation_id,created_at,in_reply_to_user_id,referenced_tweets&expansions=author_id,in_reply_to_user_id,referenced_tweets.id&user.fields=name,username&max_results=100
+save number 1
+
+the 1545722849901645825 is succeed 
+
+       ******* send email ***********     
+
